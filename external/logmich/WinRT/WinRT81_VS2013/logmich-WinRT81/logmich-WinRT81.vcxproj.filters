@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{21d59d47-f6c8-42ff-9616-46b2cd635aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{568690ee-1d84-4610-a941-312e9ddb5444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logmich">
+      <UniqueIdentifier>{ee8fd6ab-45f3-4982-af31-1b08b3b61bfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\logmich\log.hpp">
+      <Filter>Header Files\logmich</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\logmich\logger.hpp">
+      <Filter>Header Files\logmich</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

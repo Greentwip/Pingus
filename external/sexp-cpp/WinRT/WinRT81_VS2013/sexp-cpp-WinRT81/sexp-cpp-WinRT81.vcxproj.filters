@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bf8aadf7-c101-4b7a-ad7e-abc7524c0e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sexp">
+      <UniqueIdentifier>{ec22a141-2747-4809-a014-ed76676f55a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9f7a9218-1538-44b4-82eb-358eb79dfaa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\sexp\lexer.hpp">
+      <Filter>Header Files\sexp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\sexp\parser.hpp">
+      <Filter>Header Files\sexp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\sexp\util.hpp">
+      <Filter>Header Files\sexp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\sexp\value.hpp">
+      <Filter>Header Files\sexp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\sexp\error.hpp">
+      <Filter>Header Files\sexp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\sexp\io.hpp">
+      <Filter>Header Files\sexp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

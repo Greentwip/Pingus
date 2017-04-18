@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="59711Greentwip.Pingus" Publisher="CN=20CC192E-7CE9-4070-8839-E1D1474BB0C4" Version="1.1.0.0" />
+  <Properties>
+    <DisplayName>Pingus</DisplayName>
+    <PublisherDisplayName>Greentwip</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Pingus_WinRT.App">
+      <m2:VisualElements DisplayName="Pingus" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="Pingus has started at the end of 1998 with the simple goal to create a Lemmings clone. If you don't know Lemmings, here comes a short introduction. It is a puzzle game developed in 1991 by DMA Design. The player takes command in the game of a bunch of small animals and has to guide them through levels. Since the animals walk on their own, the player can only influence them by giving them commands, like build a bridge, dig a hole or redirect all animals in the other direction. The goal of each level is to reach the exit, for this multiple combination of commands are necessary. The game is presented in a 2D site view. While Pingus is based on the idea of Lemmings, it however doesn't try to be an exact clone, it has included a few ideas of its own, like the worldmap or secret levels, which might be familiar from games the Super Mario World and other Nintendo games. It has also a few new actions, like the jumper which weren't presented in the original game. To get an impression of the look of the Pingus game you might want to have a look at some screenshots." ForegroundText="light" BackgroundColor="#464646">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8920a52c-e385-4931-8ae3-864fc158019a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{675cac64-2963-445b-8323-592588ddf585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tinygettext">
+      <UniqueIdentifier>{4530d056-32b6-49d0-9b35-8570c76d48be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\language.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\plural_forms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\po_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tinygettext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dictionary_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\iconv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\unix_file_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\windows_file_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\tinygettext\file_system.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\iconv.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\language.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\log.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\log_stream.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\plural_forms.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\po_parser.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\tinygettext.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\unix_file_system.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\dictionary.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\dictionary_manager.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinygettext\windows_file_system.hpp">
+      <Filter>Header Files\tinygettext</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
